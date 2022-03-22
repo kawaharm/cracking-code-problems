@@ -38,3 +38,17 @@ console.log(oneAway('pale', 'ple'), 'TRUE');
 console.log(oneAway('pale', 'pales'), 'TRUE');
 console.log(oneAway('pale', 'bale'), 'TRUE');
 console.log(oneAway('pale', 'bake'), 'FALSE');
+
+const foo = {
+    bar() {
+        console.log('hello')
+    },
+    name: "al",
+    age: 26
+}
+
+const a = 1
+let b = 2
+var c
+
+c += a + b
